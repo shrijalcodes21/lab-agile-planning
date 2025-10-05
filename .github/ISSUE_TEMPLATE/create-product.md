@@ -7,13 +7,8 @@ assignees: ''
 
 ---
 
-As a [catalog manager], 
-I need the ability to create a product in the catalog 
-so that new products can be added for customers.
+As a catalog manager, I need the ability to update a product in the catalog so that any changes to product information can be reflected.
 
-   
-Given I am logged in as a catalog manager
-When I submit the product details
-Then the product should be added to the catalog successfully
-   
- ### Acceptance Criteria
+Given a product exists in the catalog
+When I submit updated product details
+Then the product information should be updated successfully
